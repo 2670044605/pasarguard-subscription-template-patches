@@ -11,3 +11,4 @@
 - 发现 Alpine aarch64/musl 下 `rollup` optional native dependency 缺失；已把 `@rollup/rollup-linux-arm64-musl` 安装补丁直接写进构建脚本，作为快速稳定兜底。
 - 二次修正：补装 Rollup 原生包时同样加上 `--legacy-peer-deps`，避免触发上游 React/qrcode peer dependency 冲突。
 - 最终切换到更快更稳的方案：使用上游 pinned release asset `v1.3.6/en.html`，再做本地静态补丁后部署，避免 iSH 环境下的前端全量构建不稳定。
+- 已将补丁仓库推送到 GitHub，并将英文版订阅模板部署到生产。

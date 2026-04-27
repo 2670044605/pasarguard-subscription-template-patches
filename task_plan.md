@@ -7,11 +7,11 @@
 
 ## 阶段
 - [complete] 1. 盘点现状：检查上游模板结构、当前生产状态、GitHub 推送条件
-- [in_progress] 2. 建立本地长期维护仓库骨架与文档
-- [pending] 3. 生成英文版模板产物并准备部署脚本
-- [pending] 4. 初始化 Git、提交变更并尝试推送 GitHub
-- [pending] 5. 上线到生产并完成验收
-- [pending] 6. 更新项目记录与记忆
+- [complete] 2. 建立本地长期维护仓库骨架与文档
+- [complete] 3. 生成英文版模板产物并准备部署脚本
+- [complete] 4. 初始化 Git、提交变更并尝试推送 GitHub
+- [complete] 5. 上线到生产并完成验收
+- [complete] 6. 更新项目记录与记忆
 
 ## 约束
 - 优先最小风险；不直接改 PasarGuard 核心。
