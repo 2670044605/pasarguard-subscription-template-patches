@@ -4,7 +4,7 @@ set -eu
 BASE_DIR=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 WORK_DIR="$BASE_DIR/build/work"
 OUT_DIR="$BASE_DIR/build/output"
-UPSTREAM_URL="https://github.com/PasarGuard/subscription-template/releases/download/v1.3.6/en.html"
+UPSTREAM_URL="https://github.com/PasarGuard/subscription-template/releases/download/v2.2.0/en.html"
 SRC_HTML="$WORK_DIR/en.html"
 OUT_HTML="$OUT_DIR/index.html"
 

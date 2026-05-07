@@ -6,14 +6,16 @@ A tracked patch repository for long-term maintenance of the PasarGuard subscript
 This repository keeps a small, reviewable patch set and reproducible build/deploy workflow for the PasarGuard `subscription-template`, without republishing the upstream source tree.
 
 ## Current customization scope
-- Default production artifact uses the official English release asset (`en.html`)
+- Default production artifact uses the official `v2.2.0` English release asset (`en.html`)
 - Footer block is hidden via a minimal static patch
+- The rendered footer/support component is removed when the known v2.x bundle shape is present, preventing `support-url` headers from showing a support button
 - Footer credit `Made with ❤️ by PasarGuard Team` is stripped/hidden
+- Chinese apps heading is normalized from upstream `应用领域` to `客户端应用`
 
 ## Upstream baseline
 - Upstream repo: `https://github.com/PasarGuard/subscription-template`
 - Baseline source commit reference: `1fe452c96308fbd434f6a30ee24c989c0e90716f`
-- Pinned release asset: `v1.3.6 / en.html`
+- Pinned release asset: `v2.2.0 / en.html`
 - Upstream license status at time of setup: `NONE` (no license detected)
 
 ## Repository layout
